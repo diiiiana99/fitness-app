@@ -6,6 +6,8 @@ import './App.css';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Home from './pages/Home';
 import HeroBanner2 from './components/HeroBanner2';
+import Trainers from './components/Trainers';
+
 
 import Navbar from './components/Navbar';
 
@@ -16,6 +18,7 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
       <Route path="/trainers" element={<HeroBanner2 />} />
+
 
     </Routes>
   </Box>

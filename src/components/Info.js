@@ -17,18 +17,23 @@ const Info = () => {
         {/* right */}
         <Fade right>
         <div className='right'>
-            <h2>Earn passive income with crypto.</h2>
-            <p>Earn up to 12% annual rewards on 30+ digital assets. Simply hold your assets in the app to automatically earn rewards at the end of each month with no lockups and no limits.</p>
+            <h2 className='title2'>You can workout absolutely anywhere.</h2>
+            <p>Choose from thousands of workouts for home or gym in 19 different training styles.</p>
             <div className='input-container'>
                 <input type='email' placeholder='Enter your email' />
     
-      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '100px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '12px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Learn More</a>
+      <a href="#exercises" style={{ marginTop: '45px', marginLeft: '10px' , textDecoration: 'none', width: '100px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '16px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Learn More</a>
          
             </div>
+           
         </div>
+        
         </Fade>
-
+    
     </div>
+    <Typography paddingLeft='600px' fontWeight={200} color="#FF2625" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
+      Focus
+    </Typography>
 </div>
   )
 }

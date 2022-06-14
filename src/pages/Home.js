@@ -5,8 +5,12 @@ import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
 import HeroBanner2 from '../components/HeroBanner2';
+
+import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
 import Info from '../components/Info';
+import Trainers from '../components/Trainers';
+
 
 
 
@@ -17,12 +21,13 @@ const Home = () => {
 
   return (
     <Box>
-      <HeroBanner2 />
+      <Banner />
       <Navbar/>
-      <HeroBanner />
       <Info/>
-      {/* <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} /> */}
-      {/* <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} /> */}
+      <HeroBanner />
+
+     <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} /> 
+     <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
     </Box>
   );
 };
