@@ -23,8 +23,9 @@ const Home = () => {
     <Box>
       <Banner />
       <Navbar/>
-      <Info/>
       <HeroBanner />
+      <Info/>
+   
 
      <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} /> 
      <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
