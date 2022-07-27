@@ -26,9 +26,8 @@ const Home = () => {
       <HeroBanner />
       <Info/>
    
-
-     <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} /> 
-     <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
+  {/* <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} /> 
+     <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />   */}
     </Box>
   );
 };

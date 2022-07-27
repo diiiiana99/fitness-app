@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fade } from 'react-reveal'
-import { Box, Stack, Typography } from '@mui/material';
+import {  Typography } from '@mui/material';
 
 
 const Info = () => {
